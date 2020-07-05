@@ -1,6 +1,3 @@
-![.NET Core](https://github.com/ShadyNagy/Swagger/workflows/.NET%20Core/badge.svg)
-![Publish to Azure](https://github.com/ShadyNagy/Swagger/workflows/publish/badge.svg)
-
 ### Swagger
 Source code for Implement Swagger with username and password.
 
@@ -38,10 +35,10 @@ dotnet ef migrations script --context appidentitydbcontext -p ../ShadyNagy.Swagg
 
 ## Dependencies:
 
-[Ardalis.CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
-[Ardalis.ApiEndpoints](https://github.com/ardalis/ApiEndpoints)
-AutoMapper
-MediatR
-Swashbuckle.AspNetCore
-Microsoft.EntityFrameworkCore
+- [Ardalis.CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
+- [Ardalis.ApiEndpoints](https://github.com/ardalis/ApiEndpoints)
+- AutoMapper
+- MediatR
+- Swashbuckle.AspNetCore
+- Microsoft.EntityFrameworkCore
 
