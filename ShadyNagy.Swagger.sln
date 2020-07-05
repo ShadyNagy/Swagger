@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8C00A91-9F39-46E2-8874-2CFAE3C3AD21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{040ABF56-E2E9-48F7-A5E5-06E339C9E10F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{6C8004D1-7C2C-4D21-9362-87885FF5E24A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Generale.ruleset = Generale.ruleset
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadyNagy.Swagger.Core", "src\ShadyNagy.Swagger.Core\ShadyNagy.Swagger.Core.csproj", "{EBC58D91-8353-4C10-9198-6877195CD970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadyNagy.Swagger.SharedKernel", "src\ShadyNagy.Swagger.SharedKernel\ShadyNagy.Swagger.SharedKernel.csproj", "{4FEF695F-2448-46F9-A40A-5260CD754044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadyNagy.Swagger.Infrastructure", "src\ShadyNagy.Swagger.Infrastructure\ShadyNagy.Swagger.Infrastructure.csproj", "{5F973F1A-498C-4B7B-AC04-B5399E49B7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadyNagy.Swagger.Api", "src\ShadyNagy.Swagger.Api\ShadyNagy.Swagger.Api.csproj", "{7E2D2CE5-61EF-4E49-ACEA-89AE84FC4611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC58D91-8353-4C10-9198-6877195CD970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC58D91-8353-4C10-9198-6877195CD970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC58D91-8353-4C10-9198-6877195CD970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC58D91-8353-4C10-9198-6877195CD970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEF695F-2448-46F9-A40A-5260CD754044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEF695F-2448-46F9-A40A-5260CD754044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEF695F-2448-46F9-A40A-5260CD754044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEF695F-2448-46F9-A40A-5260CD754044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F973F1A-498C-4B7B-AC04-B5399E49B7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F973F1A-498C-4B7B-AC04-B5399E49B7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F973F1A-498C-4B7B-AC04-B5399E49B7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F973F1A-498C-4B7B-AC04-B5399E49B7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2D2CE5-61EF-4E49-ACEA-89AE84FC4611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2D2CE5-61EF-4E49-ACEA-89AE84FC4611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2D2CE5-61EF-4E49-ACEA-89AE84FC4611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2D2CE5-61EF-4E49-ACEA-89AE84FC4611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBC58D91-8353-4C10-9198-6877195CD970} = {E8C00A91-9F39-46E2-8874-2CFAE3C3AD21}
+		{4FEF695F-2448-46F9-A40A-5260CD754044} = {E8C00A91-9F39-46E2-8874-2CFAE3C3AD21}
+		{5F973F1A-498C-4B7B-AC04-B5399E49B7A8} = {E8C00A91-9F39-46E2-8874-2CFAE3C3AD21}
+		{7E2D2CE5-61EF-4E49-ACEA-89AE84FC4611} = {E8C00A91-9F39-46E2-8874-2CFAE3C3AD21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F22F3B8-04C4-4370-BE08-81CB9EF92DF8}
+	EndGlobalSection
+EndGlobal
